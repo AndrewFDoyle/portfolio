@@ -31,6 +31,4 @@ The ![lids diagram](img/portfolio/the-system-cropped-min.jpg)
 4. This instruction sheet serves as a reminder to users how to use the scan input. It also has all barcodes needed for use.
 5. The scanner was bought on amazon and immediately worked in any text editor of any computer to which it is attached.
 
-![[img/portfolio/LIDS-scanner-instructions-v1.0.pdf]]
-
 ---
