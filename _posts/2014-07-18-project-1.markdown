@@ -1,11 +1,36 @@
 ---
 layout: default
 modal-id: 1
+title: "Local Inventory Database System"
 date: 2014-07-18
 img: LIDS-counting.png
 alt: image-alt
-project-date: April 2014
+project-date: March 2022
 client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Data Management
+
+## The Project
+
+Local Inventory Database System or LIDS, is my attempt to manage my home's food. I made an automatic list that generates weekly and it warns of items that will expire.
+
+### The Goal
+
+*Eliminate as much food waste and excess grocery expenditure as possible. **Ideally**, I would hope to reduce waste by a minimum of 20% by price over a six month period and at least 10% savings in groceries in the same period.*
+
+### Context
+
+Food waste is a large issue. In the United States, roughly [40 percent of food](https://www.rts.com/resources/guides/food-waste-america/#:~:text=That's%20like%20every%20person%20in,municipal%20solid%20waste%20(MSW).), from harvest to plate, is not eaten or used - it's waste. If the average American throws away about [one ton of garbage](https://environmentamerica.org/reports/amc/trash-america#:~:text=In%202018%20alone%2C%20the%20U.S.,materials%20per%20American%20every%20year.) every year, a little over **10% of that waste is food**. I wanted to find a way to stop having to toss out expired food and this system attempts to do exactly that.
+
+### The System
+
+The ![lids diagram](img/portfolio/the-system-cropped-min.jpg)
+
+1. the Raspberry Pi 3 B+ currently has all peripherals plugged in (mouse, keyboard, monitor, scanner) but it is now operating headless in the kitchen.
+2. The T-cobbler and ribbons connect the LEDS to the Raspberry Pi. Green indicates the system is adding. Red indicates the system is subtracting. In both add/subtract cases, yellow marks that the item either *can* expire or *did* expire respectively. This is explained more in 4.
+3. The Python code is displayed being tested that runs the SQL queries to the MariaDB database that is running off screen.
+4. This instruction sheet serves as a reminder to users how to use the scan input. It also has all barcodes needed for use.
+5. The scanner was bought on amazon and immediately worked in any text editor of any computer to which it is attached.
+
+![[img/portfolio/LIDS-scanner-instructions-v1.0.pdf]]
+
 ---
