@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 2
+title: Google Data Analytics Certificate
 date: 2014-07-17
 img: google-cert-icon.png
 alt: image-alt
