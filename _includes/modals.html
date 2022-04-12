@@ -15,13 +15,13 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-
+                            {% if content %}
                                 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
                                 <div class="post-content e-content" itemprop="articleBody">
-                                    {{ post.content }}
+                                    <div align="left">
+                                        {{ content }}
+                                    </div>
                                 </div>
 
                                 {%- if site.disqus.shortname -%}
