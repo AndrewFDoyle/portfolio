@@ -15,7 +15,7 @@ In my home, I would like to **reduce the waste from expired food by a minimum of
 
 ### How - Shopping Lists & Reminders
 
-At a high level, LIDS is a system that is able to automatically remind users about expiring foods and provide them with a grocery list which saves time every week, eliminates guess work, and avoids buying duplicate items.
+The Solution I came up with I call LIDS; LIDS is Local Inventory Database System. At a high level, it is a system that automatically remind users about expiring foods and provide them with a grocery list which saves time every week, eliminates guess work, and helps avoid duplicate purchases.
 
 This flowchart below is a simplifed version of the whiteboard copy it is based on. I used the whiteboard version to keep everything straight when I started coding LIDS.
 
