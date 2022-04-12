@@ -17,27 +17,23 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
+
+                                <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+                                <div class="post-content e-content" itemprop="articleBody">
+                                    {{ post.content }}
+                                </div>
+
+                                {%- if site.disqus.shortname -%}
+                                    {%- include disqus_comments.html -%}
+                                {%- endif -%}
+
+                                    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+                                
+                                </article>
+
                             {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                            </ul>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
