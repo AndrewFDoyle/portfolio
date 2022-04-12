@@ -7,12 +7,42 @@ img: LIDS-counting-min.png
 alt: image-alt
 ---
 
-Test sentence. 
+### Goal - *Reduce Food Waste*
 
-Test ordered list.
+A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level. At a field-to-plate measure, [40% of food](https://www.usda.gov/foodwaste/faqs) is wasted.
 
-1. asd
-2. asdasd
-3. adasdasd
+In my home, I would like to **reduce the waste from expired food by a minimum of 20% and cut excess spending by at least 10% over the course of 6 months**. I will measure waste by scanning items that enter in to the system and get exited at 'wasted' items. One caveat is that only 'regular' foods are accounted for. This means no parties or fancy dinners generate 'waste' by this definition.
 
-![test image](img/portfolio/submarine.png)
+### How - Shopping Lists & Reminders
+
+At a high level, LIDS is a system that is able to automatically remind users about expiring foods and provide them with a grocery list which saves time every week, eliminates guess work, and avoids buying duplicate items.
+
+This flowchart below is a simplifed version of the whiteboard copy it is based on. I used the whiteboard version to keep everything straight when I started coding LIDS.
+
+<img src="\img\portfolio\lids_flowchart.png" alt="no_image" width="800"/>
+
+### Project Breakdown
+
+I tried a few things before I landed on the below configuration for my database shown in the image below. Each element is described in the list under the image.
+
+<img src="\img\portfolio\the-system-cropped-min.jpg" alt="no_image" width="500"/>
+
+1 - Use a Raspberry Pi 3 which is currently hooked into all the peripherals including monitor, keyboard, mouse, and scanner, but it is currently running 'headless' or without everthing but the scanner.
+
+2 - The T-cobbler and ribbon connects the LED circuit to the GPIO pins on the Raspberry Pi.
+
+3 - On the monitor is the Python code that does 3 main things: It scans items in or out, adds to the database, and sends the weekly data and grocery list to the end user. 
+
+4 - The instructions gives the user a reminder on what to do in each use-case, but in the long run, it serves by having the barcodes that turn LIDS on and off add/subtract modes and whether an item perished or is marked as perishable.
+
+5 - The scanner is the one piece of hardware I had to buy in addition to the Raspberry Pi which was purchased on amazon.com for about $20.
+ 
+ <br><br>
+ 
+The LIDS user instructions look like this:
+
+<embed src="\img\portfolio\LIDS-scanner-instructions-v1.0.pdf" width="750" height="400" type="application/pdf">
+
+ <br><br>
+
+I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list). 
