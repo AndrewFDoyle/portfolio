@@ -12,28 +12,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ title }}</h2>
                             <hr class="">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if content %}
+
+                            {% if post.content %}
                                 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-                                <div class="post-content e-content" itemprop="articleBody">
-                                    <div align="left">
-                                        {{ content }}
-                                    </div>
+                                <div class="post-content e-content" align = "left" itemprop="articleBody">
+                                        {{post.content}}
                                 </div>
-
-                                {%- if site.disqus.shortname -%}
-                                    {%- include disqus_comments.html -%}
-                                {%- endif -%}
 
                                     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
                                 
                                 </article>
 
                             {% endif %}
-                            
+                                
+                            </article>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
