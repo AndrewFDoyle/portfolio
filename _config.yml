@@ -2,8 +2,7 @@
 title: Andrew Doyle
 email: "andrew.fowler.doyle@gmail.com"
 url: "https://andrewfdoyle.com/"
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: Welcome! My name is Andrew and I use SQL, spreadsheets and Python to make insights. I am an aspiring data analyst and I made this site to host a few of my projects.
 #skills: "Data Analyst | Mechanical Engineer"
 meta_author: Doyle Andrew
 
@@ -27,10 +26,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: B2CEA6 #18bc9c #80B3FF # medium teal
-  primary-rgb: "184,204,164" #"24,288,156" #"128,179,255" # light blue
-  secondary: 3E5B31 #2c3e50 #FD6E8A #dark blue
-  secondary-dark: 233140 #233140 #A2122F #dark blue
+  primary: B2CEA6 # pale light green
+  primary-rgb: "184,204,164" # dark green
+  secondary: 3E5B31 # dark green
+  secondary-dark: 22331b # darker green
 
 # Footer settings
 footer:
@@ -45,14 +44,6 @@ social:
     url: https://www.linkedin.com/in/andrewfdoyle/
   - title: github
     url: https://github.com/AndrewFDoyle/
-
-# Postal address (add as many lines as necessary)
-address:
-#  - line: Wexford, PA
-#  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
