@@ -9,7 +9,7 @@ alt: image-alt
 
 ### Goal - *Reduce Food Waste*
 
-A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level. At a field-to-plate measure, [40% of food](https://www.usda.gov/foodwaste/faqs) is wasted.
+A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level.
 
 In my home, I would like to **reduce the waste from expired food by a minimum of 20% and cut excess spending by at least 10% over the course of 6 months**. I will measure waste by scanning items that enter in to the system and get exited at 'wasted' items. One caveat is that only 'regular' foods are accounted for. This means no parties or fancy dinners generate 'waste' by this definition.
 
