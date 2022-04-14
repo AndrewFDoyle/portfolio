@@ -2,30 +2,38 @@
 layout: post
 modal-id: 1
 title: Local Inventory Database System
-date: 2014-07-18
+date: 2022-03-01
 img: LIDS-counting-min.png
 alt: image-alt
 ---
 
 ### Goal - *Reduce Food Waste*
 
-A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level. At a field-to-plate measure, [40% of food](https://www.usda.gov/foodwaste/faqs) is wasted.
+A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level.
 
 In my home, I would like to **reduce the waste from expired food by a minimum of 20% and cut excess spending by at least 10% over the course of 6 months**. I will measure waste by scanning items that enter in to the system and get exited at 'wasted' items. One caveat is that only 'regular' foods are accounted for. This means no parties or fancy dinners generate 'waste' by this definition.
 
 ### How - Shopping Lists & Reminders
 
-The Solution I came up with I call LIDS; LIDS is Local Inventory Database System. At a high level, it is a system that automatically remind users about expiring foods and provide them with a grocery list which saves time every week, eliminates guess work, and helps avoid duplicate purchases.
+The solution I came up with I call LIDS. LIDS is Local Inventory Database System. At a high level, it is a system that automatically reminds users about expiring foods and provide a grocery list to them which saves time every week, eliminates guess work, and helps avoid duplicate purchases.
 
-This flowchart below is a simplifed version of the whiteboard copy it is based on. I used the whiteboard version to keep everything straight when I started coding LIDS.
+The flowchart below is a simplifed on from the whiteboard original it is based on. I referenced the whiteboard version when I started coding LIDS.
 
-<img src="\img\portfolio\lids_flowchart.png" alt="no_image" width="800"/>
+<br>
+
+<img src="\img\portfolio\lids_flowchart.png" alt="no_image" style="width:50%"/>
+
+<br>
 
 ### Project Breakdown
 
 I tried a few things before I landed on the below configuration for my database shown in the image below. Each element is described in the list under the image.
 
-<img src="\img\portfolio\the-system-cropped-min.jpg" alt="no_image" width="500"/>
+<br>
+
+<img src="\img\portfolio\the-system-cropped-min.jpg" alt="no_image" style="width:35%"/>
+
+<br>
 
 1 - Use a Raspberry Pi 3 which is currently hooked into all the peripherals including monitor, keyboard, mouse, and scanner, but it is currently running 'headless' or without everthing but the scanner.
 
@@ -41,9 +49,11 @@ I tried a few things before I landed on the below configuration for my database 
  
 The LIDS user instructions look like this:
 
+<br>
+
 <embed src="\img\portfolio\LIDS-scanner-instructions-v1.0.pdf" width="750" height="400" type="application/pdf">
 
- <br><br>
+<br>
 
 I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list). 
 
