@@ -2,12 +2,9 @@
 layout: post
 modal-id: 2
 title: Google Data Analytics Certificate
-date: 2014-07-17
+date: 2022-03-01
 img: google-cert-icon.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
 ---
 ### Goal - *Learn the Landscape of Data Analysis*
 
@@ -21,7 +18,7 @@ Prior to this series, Google sheets was not something I knew very well. I would 
 
 <img src="\img\portfolio\google_sheets.png" alt="no_image" style="width:15%"/>
 
-Simultaneously, some of my earlier efforts in he LIDS projects, I started learning VBA Macros to modify my pantry inventory. Later, this was all changed to python code.
+Simultaneously, when I started the LIDS project, I began learning VBA Macros to modify my pantry inventory. Later, this was all changed to python code for reasons of compatabillity with the Raspberry Pi which was a later addition.
 
 <img src="\img\portfolio\microsoft_excel.png" alt="no_image" style="width:15%"/>
 
@@ -33,15 +30,15 @@ My introduction to SQL came through GDAC using Google's BigQuery. This gave me a
 
 #### Tableau
 
-Tableau is a neat tool. Once I got to follow along with their examples, I really started liking the program and learning more about what it is capable of doing. Since then, I have started a project to build an interactive dashboard to track game popularity that is still in the works.
+Tableau is a neat tool. Once I got to follow along with the GDAC examples, I really started liking the program and learning more about what it is capable of doing. Since then, I have started a project to build an interactive dashboard to track game popularity that is now in the works.
 
-<img src="\img\portfolio\tableau.png" alt="no_image" style="width:25%"/>
+<img src="\img\portfolio\tableau.png" alt="no_image" style="width:15%"/>
 
 #### R Langauge
 
-GDAC built my foundation in R throughout the seventh course in the series and it laid the ground work for me to continue coding for analysis afterwards. I mostly use python now, but I would be glad to pick R up again and go deeper on it.
+GDAC built my foundation in R in the seventh course of the series and it laid the ground work for me to continue coding for analysis afterwards. I have been mostly using python, but I would be glad to pick R up again and go deeper on it.
 
-<img src="\img\portfolio\R.png" alt="no_image" style="width:25%"/>
+<img src="\img\portfolio\R.png" alt="no_image" style="width:15%"/>
 
 <br>
 <br>
