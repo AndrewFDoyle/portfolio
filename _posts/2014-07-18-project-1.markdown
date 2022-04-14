@@ -21,7 +21,7 @@ The flowchart below is a simplifed on from the whiteboard original it is based o
 
 <br>
 
-<img src="\img\portfolio\lids_flowchart.png" alt="no_image" style="width:50%"/>
+<img src="\img\portfolio\lids_flowchart.png" alt="no_image" style="width:80%"/>
 
 <br>
 
@@ -31,7 +31,7 @@ I tried a few things before I landed on the below configuration for my database 
 
 <br>
 
-<img src="\img\portfolio\the-system-cropped-min.jpg" alt="no_image" style="width:35%"/>
+<img src="\img\portfolio\the-system-cropped-min.jpg" alt="no_image" style="width:60%"/>
 
 <br>
 
