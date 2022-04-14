@@ -45,4 +45,12 @@ The LIDS user instructions look like this:
 
  <br><br>
 
-I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list). 
+I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list).
+
+<br>
+
+### Results
+
+The data is still coming in. The plot to track is the grocery bill over time: if I can track grocery costs for the past two years and then reduce the amount spent, when I create the plot, I should be able to tell, with statistical and visual significance, this system has done its job. This is where the plot figure will go when it gets created.
+
+<br><br>
