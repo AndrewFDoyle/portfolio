@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 1
 title: Local Inventory Database System
 date: 2014-07-18
@@ -9,7 +9,7 @@ alt: image-alt
 
 ### Goal - *Reduce Food Waste*
 
-A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level.
+A Typical American tosses nearly a ton of garbage away every year or [5 pounds a day](https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials). Roughly [20% of that waste is food](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195405) at the consumer level. At a field-to-plate measure, [40% of food](https://www.usda.gov/foodwaste/faqs) is wasted.
 
 In my home, I would like to **reduce the waste from expired food by a minimum of 20% and cut excess spending by at least 10% over the course of 6 months**. I will measure waste by scanning items that enter in to the system and get exited at 'wasted' items. One caveat is that only 'regular' foods are accounted for. This means no parties or fancy dinners generate 'waste' by this definition.
 
@@ -45,12 +45,7 @@ The LIDS user instructions look like this:
 
  <br><br>
 
-I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list).
+I counted the existing pantry. However, it was not necessary to do so as the system *only* needs to identify changes in inventory and this can be done as long as the item has a label (which is only for the list). 
 
 <br>
-
-### Results
-
-The data is still coming in. The plot to track is the grocery bill over time: if I can track grocery costs for the past two years and then reduce the amount spent, when I create the plot, I should be able to tell, with statistical and visual significance, this system has done its job. This is where the plot figure will go when it gets created.
-
-<br><br>
+<br>
